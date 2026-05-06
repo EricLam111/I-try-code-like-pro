@@ -1,0 +1,27 @@
+{
+  "version": 1.0,
+  "grid_size": 128,
+  "tabs": [
+    {
+      "name": "Live Debug",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "Global",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Toggle Switch",
+            "properties": {
+              "topic": "/Tuning/LiveDebugGroupChooser/Global",
+              "period": 0.06,
+              "data_type": "boolean"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

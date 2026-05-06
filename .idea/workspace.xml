@@ -5,15 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b36434-8601-4da3-bb0f-c645854544a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.ascope/layout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Build_Robot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Build___Deploy_Robot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Build___Deploy_Robot_for_Debugging.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Build___Run_Simulate_Java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Clean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Clean_Build_Robot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Clean_Build___Deploy_Robot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Clean_Build___Deploy_Robot_for_Debugging.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Clean_Build___Run_Simulate_Java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Debug_Robot_via_IP.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Debug_Robot_via_USB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Launch_Shuffleboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/runConfigurations/Launch_SmartDashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/.wpilib/wpilib_preferences.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/andymark/2025-blue-reef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/andymark/2025-no-barge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/andymark/2025-official.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/andymark/2025-red-reef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/welded/2025-blue-reef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/welded/2025-no-barge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/welded/2025-official.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/apriltags/welded/2025-red-reef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/choreo/auto.chor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/choreo/test.traj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/deploy/elastic-layout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Odometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Ports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/RobotContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/TrajectoryLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/GyroIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/GyroIOPigeon2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/ModuleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/ModuleIOKrakenFOC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/ModuleIOSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/PhoenixOdometryThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/SimOdometryThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/Swerve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/SwerveConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/controller/DriveToPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/controller/HeadingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/controller/TeleopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/swerve/controller/TrajectoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/vision/ApriltagVision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/vision/ApriltagVisionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/vision/ApriltagVisionIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/vision/ApriltagVisionIOPhoton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/subsystem/vision/ApriltagVisionIOPhotonSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/AllianceFlipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/AllianceValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/BooleanChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/EqualsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/GeomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/IdealSimMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/LoggedTunableNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/PolygonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/SwitchableChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/TimeBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/TransformTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/TriggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/VirtualSubsystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/driver/BeamBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/driver/CanId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/driver/DoubleSolenoidId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/driver/LazyDoubleSolenoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/driver/Phoenix6Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericArmIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericArmIOKraken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericArmIOKrakenCancoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericArmIOSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericElevatorIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericElevatorIOKraken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericElevatorIOSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericRollerIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericRollerIOKraken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/genericsystem/GenericRollerIOSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/led/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/led/TimedColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/oi/CommandVader4ProController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/oi/Vader4ProController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/superautopilot/SAPProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/main/java/com/nextinnovation/team8214/util/superautopilot/SuperAutopilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/src/test/java/com/nextinnovation/team8214/ExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/AdvantageKit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/Autopilot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/ChoreoLib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/Phoenix6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/WPILibNewCommands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I am not pro/NI-Skeleton-2025-Swerve/vendordeps/photonlib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/commands/Autos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/commands/ExampleCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/I am not pro/src/main/java/frc/robot/subsystems/ExampleSubsystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +149,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "EricLam111"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EricLam111&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EricLam111/I-try-code-like-pro.git",
-    "accountId": "42fb89c3-4ef3-4f6c-9ad3-d7ce8fd76cfe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EricLam111/I-try-code-like-pro.git&quot;,
+    &quot;accountId&quot;: &quot;42fb89c3-4ef3-4f6c-9ad3-d7ce8fd76cfe&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -60,15 +169,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eric/Documents/GitHub/I-try-code-like-pro&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Robot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Skeleton-based-TR-Robot",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Eric/Documents/GitHub/I-try-code-like-pro/I am not pro",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Documents\GitHub\I-try-code-like-pro\I am not pro" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Build Robot">
+    <list>
+      <item itemvalue="Gradle.Build &amp; Deploy Robot" />
+      <item itemvalue="Gradle.Build &amp; Deploy Robot for Debugging" />
+      <item itemvalue="Gradle.Build Robot" />
+      <item itemvalue="Gradle.Clean" />
+      <item itemvalue="Gradle.Clean Build &amp; Deploy Robot" />
+      <item itemvalue="Gradle.Clean Build &amp; Deploy Robot for Debugging" />
+      <item itemvalue="Gradle.Clean Build Robot" />
+      <item itemvalue="Remote JVM Debug.Debug Robot via IP" />
+      <item itemvalue="Remote JVM Debug.Debug Robot via USB" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
