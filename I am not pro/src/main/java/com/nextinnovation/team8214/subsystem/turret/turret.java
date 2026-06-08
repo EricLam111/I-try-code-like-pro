@@ -42,8 +42,13 @@ public class Turret extends SubsystemBase {
     private final GenericArmIO turretIO;
     private final GenericArmIOInputAutoLogged turretInput = new GenericArmIOInputsAutoLogged();
 
+    private final GenericRollerIO flywheelIO;
+    private final GenericArmIOInputAutoLogged flywheelInput = new GenericArmIOInputsAutoLogged();
+
     private final GenericArmIO pitchIO;
     private final GenericArmIOInputAutoLogged pitchInput = new GenericArmIOInputsAutoLogged();
+
+    private final Alert turretOfflineAlert = new Alert("Turret motor offline", Alert.AlertType.WARNING);
 
     @Getter
     @AutoLogOutput(key = TurretConfig.LOG_ROOT + "/mode")
@@ -52,6 +57,10 @@ public class Turret extends SubsystemBase {
     @Getter
     @AutoLogOutput(key = TurretConfig.LOG_ROOT + "/turretOnTarget")
     private boolean turretOnTarget = false;
+
+    @Getter
+    @AutoLogOutput(key = TurretConfig.LOG_ROOT + "/flywheelOnTarget")
+    private boolean flywheelOnTarget = false;
 
     @Getter
     @AutoLogOutput(key = TurretConfig.LOG_ROOT + "/pitchOnTarget")
@@ -73,7 +82,7 @@ public class Turret extends SubsystemBase {
                                 .withKS(TURRET_GAINS.getKs())
                                 .withKG(TURRET_GAINS.getKg())
                                 .withGravityType(GravityTypeValue.Arm_Cosine);
-                
+
                 turretConfig.Feedback.SensorToMechanismRatio = (40.0/8.0) * (160.0 / 10.0);
                 turretIO =
                         new GenericArmIOKraken(
@@ -83,6 +92,63 @@ public class Turret extends SubsystemBase {
                                 Unit.degreesToRadians(turretConfig.START_ANGLE_DEGREE)
                         );
 
+                var flywheelConfig = new TalonFXConfiguration();
+                flywheelConfig.MotorOutput.NeutralMode = NeutralModeValue.Brake;
+                flywheelConfig.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
+                flywheelConfig.Slot0 =
+                        new Slot0Config(
+                                .withKP(FLYWHEEL_GAINS.getKp())
+                                .withKD(FLYWHEEL_GAINS.getKd())
+                                .withKS(FLYWHEEL_GAINS.getKs())
+                                .withKG(FLYWHEEL_GAINS.getKg());
+                        )
+                flywheelConfig.Slot1 = new Slot1Config().withKP(999999.0);
+                flywheelConfig.CurrentLimits.StatorCurrentLimit = 80.0;
+                flywheelConfig.CurrentLimits.StatorCurrentLimitEnable = true;
+                flywheelConfig.TorqueCurrent.PeakForwardTorqueCurrent = 40.0;
+                flywheelConfig.TorqueCurrent.PeakReverseTorqueCurrent = 0.0;
+                flywheelConfig.MotorOutput.PeakForwardDutyCycle = 1.0;
+                flywheelConfig.MotorOutput.PeakReverseDutyCycle = 0.0;
+                flywheelConfig.Feedback.SensorToMechanismRatio = turretConfig.FLYWHEEL_GEAR_RATIO;
+
+                flywheelIO =
+                        new GenericRollerIOKraken(
+                                "shooter/flywheel", Ports.Can.TURRET_FLYWHEEL_UP_LEFT_MASTER, flywheelConfig
+                                .withFollower(Ports.Can.TURRET_FLYWHEEL_DOWN_SALVE, false)
+                                .withFollower(Ports.Can.TURRET_FLYWHEEL_UP_SALVE, true));
+                var pitchConfig = new TalonFXConfiguration();
+                pitchConfig.MotorOutput.NeuturalMode = NeutralModeValue.Brake;
+                pitchConfig.MotorOutput.Inverted = InvertedValue.CounterClockwise_Positive;
+                pitchConfig.Slot0 =
+                        new Slot0Config()
+                                .withKP(PITCH_GAINS.getKp())
+                                .withKD(PITCH_GAINS.getKd())
+                                .withKS(PITCH_GAINS.getKs())
+                                .withKG(PITCH_GAINS.getKg())
+                                .withGravityType(GravityTypeValue.Arm_Cosine);
+                pitchConfig.Feedback.SensorToMechanismRatio = (50.0 / 8.0) * (156.0 / 10.0);
+
+                pitchIO =
+                        new GenericArmIOKraken(
+                                "shooter/pitch",
+                                Ports.Can.SHOOTER_PITCH,
+                                pitchConfig,
+                                Units.degreesToRadians(turretConfig.START_ANGLE_DEGREE));
+
+            }
+
+            case SIM -> {
+                turretIO = new GenericArmIOSim(
+                        Units.degreesToRadians(turretConfig.START_ANGLE_DEGREE),
+                        Units.degreesToRadians(50.0),
+                        Units.degreesToRadians(85.0)
+                );
+            }
+
+            default -> {
+                turretIO = new GenericArmIO() {};
+                flywheelIO = new GenericRollerIO() {};
+                pitchIO = new GenericArmIO() {};
             }
         }
     }
